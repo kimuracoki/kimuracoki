@@ -14,3 +14,16 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+<p align="left">
+  <a href="https://github.com/kimuracoki/kimuracoki/">
+    <img src="https://komarev.com/ghpvc/?username=kimuracoki" alt="kimuracoki" />
+  </a>
+  <a href="https://github.com/kimuracoki">
+    <img height="20" src="https://img.shields.io/github/followers/kimuracoki?label=follow&logo=github&style=flat" />
+  </a>
+</p>
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kimuracoki)](https://github.com/anuraghazra/github-readme-stats)
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=kimuracoki&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
