@@ -1,8 +1,6 @@
 <div align="center">
 
-# kimuracoki
-
-Web Engineer
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6EA8FE&center=true&vCenter=true&width=520&lines=Hi%2C+I'm+kimuracoki+%F0%9F%91%8B;Web+Engineer" alt="Typing SVG" />
 
 <p>
   <a href="https://github.com/kimuracoki/kimuracoki/">
