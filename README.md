@@ -45,7 +45,7 @@
 
 <br>
 
-<img src="https://streak-stats.demolab.com?user=kimuracoki&hide_border=true&theme=tokyonight&ring=6EA8FE&fire=6EA8FE&currStreakLabel=6EA8FE" alt="streak" />
+<img src="https://raw.githubusercontent.com/kimuracoki/kimuracoki/output/streak.svg" alt="streak" />
 
 </div>
 
