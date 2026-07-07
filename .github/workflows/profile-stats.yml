@@ -1,4 +1,4 @@
-name: Generate Snake
+name: Generate profile stats
 
 on:
   schedule:
@@ -16,6 +16,15 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate streak stats
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true&ring=6EA8FE&fire=6EA8FE&currStreakLabel=6EA8FE
+          path: streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Generate snake SVGs
         uses: Platane/snk@v3
         id: snake-gif
@@ -25,12 +34,11 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Generate streak stats
-        uses: DenverCoder1/github-readme-streak-stats@main
-        with:
-          options: user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true&ring=6EA8FE&fire=6EA8FE&currStreakLabel=6EA8FE
-          path: dist/streak.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Assemble output
+        run: |
+          sudo chown -R "$USER:$USER" dist 2>/dev/null || true
+          mkdir -p dist
+          cp streak.svg dist/streak.svg
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
