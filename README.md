@@ -55,11 +55,11 @@ I'm a **Web Engineer** passionate about building clean, fast, and delightful web
 
 <br>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=kimuracoki&theme=tokyo-night&hide_border=true&bg_color=00000000&color=6EA8FE&line=6EA8FE&point=ffffff&area=true&area_color=6EA8FE" alt="activity graph" />
+<img width="100%" src="https://raw.githubusercontent.com/kimuracoki/kimuracoki/output/activity-graph.svg" alt="activity graph" />
 
 <br>
 
-<img src="https://github-profile-trophy-8fed.vercel.app/?username=kimuracoki&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8" alt="trophy" />
+<img src="https://raw.githubusercontent.com/kimuracoki/kimuracoki/output/trophy.svg" alt="trophy" />
 
 <br>
 
