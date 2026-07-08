@@ -34,7 +34,7 @@ I'm a **Web Engineer** passionate about building clean, fast, and delightful web
 
 <img src="https://skillicons.dev/icons?i=ts,react,nextjs,js,nodejs,tailwind,html,css,threejs&theme=dark" alt="frontend" />
 <br>
-<img src="https://skillicons.dev/icons?i=php,java,spring,python,haskell,lua,docker,git,vercel,wordpress&theme=dark" alt="backend and tools" />
+<img src="https://skillicons.dev/icons?i=java,spring,python,haskell,lua,docker,git,vercel,wordpress&theme=dark" alt="backend and tools" />
 
 </div>
 
