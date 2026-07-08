@@ -41,11 +41,14 @@ jobs:
           path: top-langs.svg
           token: ${{ secrets.GH_STATS_TOKEN }}
 
+      - name: Prepare generated directory
+        run: rm -rf generated trophy.svg activity-graph.svg
+
       - name: Generate trophy
         uses: kimuracoki/github-profile-trophy@master
         with:
           username: ${{ github.repository_owner }}
-          output_path: trophy.svg
+          output_path: generated/trophy.svg
           theme: tokyonight
           token: ${{ secrets.GH_STATS_TOKEN }}
 
@@ -54,7 +57,7 @@ jobs:
         with:
           username: ${{ github.repository_owner }}
           options: theme=tokyo-night&hide_border=true&bg_color=00000000&color=6EA8FE&line=6EA8FE&point=ffffff&area=true&area_color=6EA8FE
-          output_path: activity-graph.svg
+          output_path: generated/activity-graph.svg
           token: ${{ secrets.GH_STATS_TOKEN }}
 
       - name: Generate snake SVGs
@@ -73,8 +76,8 @@ jobs:
           cp streak.svg dist/streak.svg
           cp github-stats.svg dist/github-stats.svg
           cp top-langs.svg dist/top-langs.svg
-          cp trophy.svg dist/trophy.svg
-          cp activity-graph.svg dist/activity-graph.svg
+          cp generated/trophy.svg dist/trophy.svg
+          cp generated/activity-graph.svg dist/activity-graph.svg
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
