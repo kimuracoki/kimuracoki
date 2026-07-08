@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,12,20,30&height=200&section=header&text=kimuracoki&fontSize=60&fontColor=ffffff&animation=fadeIn&desc=Web%20Engineer&descAlignY=60&descSize=18" alt="header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,12,20,30&height=220&section=header&text=kimuracoki&fontSize=65&fontColor=ffffff&animation=fadeIn&desc=Web%20Engineer&descAlignY=62&descSize=20" alt="header" />
 
 <div align="center">
 
@@ -15,19 +15,37 @@
 
 </div>
 
-## 🛠 Tech Stack
+<img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=6EA8FE&height=60&section=header&text=About%20Me&fontSize=28&fontColor=ffffff&animation=twinkling" alt="about section" />
+
+<div align="center">
+
+I'm a **Web Engineer** passionate about building clean, fast, and delightful web experiences.
+
+🔭 Working with **TypeScript**, **React**, and **Next.js**  
+🧠 Exploring **Haskell** for fun  
+📝 Writing on [Zenn](https://zenn.dev/kimuracoki)  
+🌐 Portfolio at [kimuracoki.com](https://kimuracoki.com)
+
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=6EA8FE&height=60&section=header&text=Tech%20Stack&fontSize=28&fontColor=ffffff&animation=twinkling" alt="tech stack section" />
 
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=ts,react,nextjs,js,nodejs,tailwind,html,css,threejs&theme=dark" alt="frontend" />
 <br>
-<img src="https://skillicons.dev/icons?i=php,java,spring,python,haskell,lua,docker,git,vercel,wordpress&theme=dark" alt="backend & tools" />
+<img src="https://skillicons.dev/icons?i=php,java,spring,python,haskell,lua,docker,git,vercel,wordpress&theme=dark" alt="backend and tools" />
 
 </div>
 
-## 📊 Stats
+<img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=6EA8FE&height=60&section=header&text=GitHub%20Stats&fontSize=28&fontColor=ffffff&animation=twinkling" alt="stats section" />
 
 <div align="center">
+
+<img height="195" src="https://raw.githubusercontent.com/kimuracoki/kimuracoki/output/github-stats.svg" alt="github stats" />
+<img height="195" src="https://raw.githubusercontent.com/kimuracoki/kimuracoki/output/top-langs.svg" alt="top languages" />
+
+<br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kimuracoki/kimuracoki/output/github-contribution-grid-snake-dark.svg" />
@@ -49,7 +67,7 @@
 
 </div>
 
-## 🔗 Links
+<img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=6EA8FE&height=60&section=header&text=Connect&fontSize=28&fontColor=ffffff&animation=twinkling" alt="connect section" />
 
 <div align="center">
 
@@ -58,6 +76,9 @@
 </a>
 <a href="https://zenn.dev/kimuracoki">
   <img src="https://img.shields.io/badge/Zenn-3EA8FF?style=for-the-badge&logo=zenn&logoColor=white" alt="zenn" />
+</a>
+<a href="https://github.com/kimuracoki">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="github" />
 </a>
 
 </div>
